@@ -18,7 +18,7 @@ def rank_resumes(job_discription, resumes):
 
     job_discription_vector = vectors[0]
     resume_vectors = vectors [1:]
-    cosine_similarities = cosine_similarity([job_discription_vector], resume_vectors).flatten
+    cosine_similarities = cosine_similarity([job_discription_vector], resume_vectors).flatten()
 
     return cosine_similarities
 
